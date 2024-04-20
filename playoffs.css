@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    /* CSS rules for screens smaller than 600px (e.g., smartphones) */
+    body {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    table {
+      width: 100%;
+    }
+    /* Add more responsive styles as needed */
+  }
