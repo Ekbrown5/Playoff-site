@@ -11,3 +11,8 @@
     }
     /* Add more responsive styles as needed */
   }
+  .teams-container {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
