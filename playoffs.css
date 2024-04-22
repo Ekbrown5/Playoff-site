@@ -1,16 +1,21 @@
+h1 {
+  position: fixed;
+  top: 20px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(253, 0, 13);
+  font-size: 75px;
+  z-index: 1;
+}
+
+/* Media query for screens smaller than 600px (e.g., smartphones) */
 @media only screen and (max-width: 600px) {
-    /* CSS rules for screens smaller than 600px (e.g., smartphones) */
-    body {
-      padding: 10px;
-    }
-    h1 {
-      font-size: 40px;
-    }
-    table {
-      width: 100%;
-    }
-    /* Add more responsive styles as needed */
+  h1 {
+    position: static; /* Change the position to static */
+    font-size: 30px; /* Adjust the font size */
+    margin-top: 20px; /* Add some margin-top */
   }
+}
   .teams-container {
     display: flex;
     justify-content: space-around; /* Distribute items evenly along the main axis */
