@@ -3,7 +3,7 @@ h1 {
   top: 20px; /* Adjust the top position as needed */
   left: 50%;
   transform: translateX(-50%);
-  color: rgb(253, 0, 13);
+  color: Black;
   font-size: 50px;
   z-index: 1;
 }
@@ -17,6 +17,6 @@ h1 {
   }
 
   table {
-    margin-top: 100px; /* Adjust the margin-top for the table */
+    margin-top: 150px; /* Adjust the margin-top for the table */
   }
 }
