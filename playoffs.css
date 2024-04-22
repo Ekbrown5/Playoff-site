@@ -16,3 +16,10 @@
     justify-content: space-around; /* Distribute items evenly along the main axis */
     margin-top: 20px; /* Adjust margin as needed */
   }
+  table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter color */
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background-color: rgba(73, 2, 2, 0.8); /* Darker color */
+  }
