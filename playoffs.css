@@ -19,4 +19,8 @@ h1 {
   table {
     margin-top: 150px; /* Adjust the margin-top for the table */
   }
+  h4 a {
+    display: inline-block; /* Make the <a> elements inline-block */
+    margin-right: 20px; /* Add margin between the elements if needed */
+  }
 }
